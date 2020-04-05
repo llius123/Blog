@@ -1,13 +1,7 @@
-source 'http://rubygems.org'
+source "https://rubygems.org"
 
-group :jekyll_plugins do
-    gem 'github-pages'
-    gem 'html-proofer'
-    gem 'jekyll-admin'
-    gem 'jekyll-fontawesome-svg'
-    gem 'jekyll-seo-tag'
-    gem 'jekyll-gist'
-    gem 'jekyll-feed'
-    gem 'jemoji'
-    gem "jekyll-paginate-v2", "~> 2.0"
-end
+gem "jekyll", "~> 3.2.1"
+gem "jekyll-sitemap"
+gem "jekyll-gist"
+gem 'jekyll-mentions'
+gem 'jekyll-feed'
